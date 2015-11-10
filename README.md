@@ -4,8 +4,8 @@ labels UMDs at Multiviews16 when switching Videoinput
 Its changes the Input Labels at a Blackmagic Multiview 16 when switching VideoInput with a Videohub.
 
 For our installation we have a default labeling in Multiview it starts with "%input number |" ---Input Labels will be added after "|"
-You anly need to configuere:
 
+You anly need to configuere:
 server_address = ('192.168.1.60', 9990)# IP of your Videohub
 sockvcs.connect(server_address)
 server_address = ('192.168.1.61', 9990)# IP of your Multiview
